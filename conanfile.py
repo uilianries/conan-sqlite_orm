@@ -16,6 +16,7 @@ class sqlite_ormConan(ConanFile):
     exports = ["LICENSE.md"]
     description = "SQLite ORM light header only library for modern C++."
     requires = "sqlite3/[~=3]@bincrafters/stable"
+    
     source_subfolder = "source_subfolder"
     no_copy_source = True
 
